@@ -14,3 +14,10 @@ body {
   background-color: theme("colors.shade");
   color: theme("colors.accent-secondary");
 }
+
+li::marker {
+  content: "4353";
+  height: 40px;
+  width: 40px;
+  background-color: #ff5631;
+}
