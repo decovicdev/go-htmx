@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-accent-primary: #ff5631;
+  --color-accent-secondary: #cebea4;
+  --color-shade: #0d0d0d;
+  --color-shade-2: #1e1e1e;
+  --color-green: #57cb4c;
+}
+
+body {
+  background-color: theme("colors.shade");
+  color: theme("colors.accent-secondary");
+}
